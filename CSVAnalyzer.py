@@ -120,7 +120,7 @@ class HelpStrategy:
 	print "\tcsv file.csv"
 	print "\t\t lists headers, same as -h flag\n"
 	print "\tcsv file.csv SOME_COLUMN_NAME"
-	print "\t\t lists contens of given column, same as -l flag\n"
+	print "\t\t lists contents of given column, same as -l flag\n"
 	print "Have a great day"
     
     
