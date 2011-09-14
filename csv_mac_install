@@ -8,3 +8,6 @@ ME=`whoami`
 BASH_PRO="/Users/${ME}/.bash_profile"
 sudo echo "${ENTRY}" >> $BASH_PRO
 rm -rf CSV-Analyzer
+
+echo "DONE!"
+echo "Open a new terminal and type csv"
