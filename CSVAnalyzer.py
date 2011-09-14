@@ -108,7 +108,7 @@ class HelpStrategy:
 	print "Flags:"
 	print "\t-l : [List] lists the contents of column name/index given as a param"
 	print "\t\tcsv -l file.csv SOME_COLUMN_NAME\n"
-	print "\t-lu : [Unique List] lists the uniwue contents of column name/index given as a param"
+	print "\t-lu : [Unique List] lists the unique contents of column name/index given as a param"
 	print "\t\tcsv -lu file.csv SOME_COLUMN_NAME\n"
 	print "\t-h : [Header] prints headers from the file if they are detected"
 	print "\t\tcsv -h file.csv\n"
