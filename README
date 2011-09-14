@@ -1,0 +1,30 @@
+**** Help for CSV-Analyzer ****
+
+Usage:
+	csv [-flags] file.csv [params]
+
+Flags:
+	-l : [List] lists the contents of column name/index given as a param
+		csv -l file.csv SOME_COLUMN_NAME
+
+	-lu : [Unique List] lists the uniwue contents of column name/index given as a param
+		csv -lu file.csv SOME_COLUMN_NAME
+
+	-h : [Header] prints headers from the file if they are detected
+		csv -h file.csv
+
+	-c : [Count] prints the row count
+		csv -c file.csv
+
+	-s : [Size] prints the size of the file in Megabytes
+		csv -s file.csv
+
+Default (no flags):
+	csv file.csv
+		 lists headers, same as -h flag
+
+	csv file.csv SOME_COLUMN_NAME
+		 lists contens of given column, same as -l flag
+
+Have a great day
+
