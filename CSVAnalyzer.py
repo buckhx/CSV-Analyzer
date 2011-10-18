@@ -32,7 +32,7 @@ class Strategy:
     else:
       for i in range(0,50):
         headers[str(i)] = i
-        headers['NO_HEADERS'] = true
+        headers['NO_HEADERS'] = True
     return headers
     
   def open(self, path):
@@ -71,7 +71,10 @@ class ListUniqueStrategy(Strategy):
     col = self.args[3]
     cset = set([])
     for row in self.reader:
-      cset.add(row[self.headers[col]])
+      try:
+        cset.add(row[self.headers[col]])
+      except:
+        pass
     for entry in cset:
       print entry
 

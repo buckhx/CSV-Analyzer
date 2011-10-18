@@ -1,0 +1,8 @@
+#!/bin/bash
+
+git clone git@github.com:buckheroux/CSV-Analyzer.git
+sudo cp -rf CSV-Analyzer/ /Library/Python/2.6/site-packages/csv
+rm -rf CSV-Analyzer
+
+echo "DONE!"
+echo "Open a new terminal and type csv"
